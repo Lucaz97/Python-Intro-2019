@@ -1,5 +1,5 @@
 # Python-Intro-2019
-Materials for my next python course , work in progress...
+Materiale per il corso 2018/2019 (work in progress)
 
 - Interprete python 
   - Downolad: https://www.python.org/downloads/
