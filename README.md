@@ -9,5 +9,6 @@ Materiale per il corso 2018/2019
 
 Il materiale proiettato nelle lezioni è presente nei file *numero lezione*.html
 Questi file sono scaricabili direttamente da github clonando la repository oppure dalla seguente cartella drive: https://drive.google.com/open?id=1v3NIWEmJsDfSKUypSZ0PQQacCfYvuhdT
+I file sono in html, per visualizzarli vanno scaricati e aperti con un browser.
 
 Alla fine di ogni lezione verranno i file verranno ricaricati con le modifiche apportate a lezione.
