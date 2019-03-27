@@ -1,9 +1,11 @@
 
 class Board:
-    cells = []
+
+    # inizializzatore, viene eseguito quando faccio Board()
     def __init__(self):
         self.cells = [' ']*9
 
+    # stampo la griglia
     def draw(self):
         print('   |   |')
         print(' ' + self.cells[6] + ' | ' + self.cells[7] + ' | ' + self.cells[8])
@@ -21,6 +23,11 @@ class Board:
         return self.cells[i] == ' '
 
     def getFreeCells(self):
+        # i metodi di una classe si chiamano con oggetto.metodo()
+        # siccome qui sono già dentro un metodo, lo sto applicando a un oggetto
+        # voglio chiamare il metodo isCellFree sullo stesso oggetto su cui è stato
+        # è stato chiamato il metodo in cui sono, uso quindi self.isCellFree
+        # self è l'oggetto su sui sto operando
         return [i for i in range(9) if self.isCellFree(i)]
 
     def isWinner(self, le):
